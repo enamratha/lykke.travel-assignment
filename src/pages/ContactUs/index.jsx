@@ -64,7 +64,7 @@ const ContactUs = () => {
             Submit
           </button>
         </form>
-        <div className=" flex flex-col items-center w-full h-full py-4">
+        <div className="hidden md:block flex flex-col items-center w-full h-full py-4">
           <img
             className="h-full"
             src="https://img.freepik.com/free-photo/flat-lay-retro-telephone-receiver-with-chat-bubbles_23-2148796011.jpg?ga=GA1.1.48591340.1727965003"

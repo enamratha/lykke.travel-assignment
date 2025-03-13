@@ -81,7 +81,7 @@ const CustomPage = props => {
           {durations.map(duration => (
             <li
               key={duration.id}
-              className="bg-transparent border-2 border-green-500 hover:border-amber-900 mx-5 p-3 px-0 rounded-xl w-4/12 md:w-2/12"
+              className="bg-transparent border-2 border-green-500 hover:border-amber-900 m-5 p-3 px-0 rounded-xl w-4/12 md:w-2/12"
             >
               <div
                 onClick={onChangeDuration}
@@ -120,9 +120,9 @@ const CustomPage = props => {
     }
 
     return (
-      <div className='min-h-screen w-full'>
+      <div className='min-h-screen w-full flex flex-col items-center'>
         <h1>Who's travelling with you?</h1>
-        <ul className="flex flex-wrap items-center my-3  w-screen md:w-[80vw]">
+        <ul className="flex flex-wrap justify-center items-center my-3  w-screen md:w-[80vw]">
           {persons.map(person => {
             if (person.text === 'family' || person.text === 'friends') {
               return (
